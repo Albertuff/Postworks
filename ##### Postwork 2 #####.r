@@ -54,6 +54,7 @@ datos4=rbind(datos1,datos2,datos3)
 
 View(datos4)
 
-# Guardamos el data frame en un archivo csv, para usarlo despues.
+# Guardamos el data frame en un archivo .csv para usarlo despues.
+# Se debe de tener en cuenta la ruta donde se guarda el archivo, utilizando setwd("Ruta").
 
 write.csv(datos4,"p2res1.csv")
